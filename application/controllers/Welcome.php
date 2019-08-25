@@ -5,6 +5,7 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
+		die;
 		redirect(base_url('admin'));
 	}
 }
